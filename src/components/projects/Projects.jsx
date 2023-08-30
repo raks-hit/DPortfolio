@@ -37,7 +37,7 @@ const Projects = ({state}) => {
                     const githubLink=project.githubLink;
                     return ( <a href= {githubLink} className="project-card" target='_blank' rel="noopener noreferrer" >
                     <div className="card-img">
-                        <img src={`https://gateway.pinata.cloud/ipfs/${project.image}`} alt="" /></div>
+                        <img src={`https://ipfs.io/ipfs/${project.image}`} alt="" /></div>
                     <div className="card-text">
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>

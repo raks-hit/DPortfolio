@@ -51,7 +51,7 @@ const Hero = ({state}) => {
             <div className="hero-img">
 
                 <div className="img-container">
-                    <img src={`https://gateway.pinata.cloud/ipfs/${cid}`} alt="profilePhoto" />
+                    <img src={`https://ipfs.io/ipfs/${cid}`} alt="profilePhoto" />
                 </div>
             </div>
         </div>
