@@ -15,8 +15,8 @@ const Wallet =({saveState})=>{
             
             "0x45Bc99c0a8810c094280969A0c9cD190C3EeF97B"
         );
-        const x=await contract.methods.insertProject("Decentralised Portfolio","Portfolio created using solidity smart contract","Qmdmos4R2n2EYr1dSt7Q4pC3vkgxGiDkwr1Kn7brBUdyHC","https://d-portfolio-hazel.vercel.app/").call();
-        console.log(x);
+        
+      
 
          setConnected(false);
          saveState({web3:web3,contract:contract});
